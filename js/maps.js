@@ -1,15 +1,18 @@
-var all = L.mapbox.tileLayer('newscientist26102012.map-zxrdyqpq'),
-	Q12011 = L.mapbox.tileLayer('newscientist26102012.map-0o8p3fb1'),
-	Q22011 = L.mapbox.tileLayer('newscientist26102012.map-nvv7h3ai'),
-	Q32011 = L.mapbox.tileLayer('newscientist26102012.map-041p4w4h'),
-	Q42011 = L.mapbox.tileLayer('newscientist26102012.map-zvt3n5vx'),
-	Q12012 = L.mapbox.tileLayer('newscientist26102012.map-v1ikt809'),
-	Q22012 = L.mapbox.tileLayer('newscientist26102012.map-gsktvefm'),
-	Q32012 = L.mapbox.tileLayer('newscientist26102012.map-dd0i2zw8'),
-	Q42012 = L.mapbox.tileLayer('newscientist26102012.map-kavzvtye'),
-	Q12013 = L.mapbox.tileLayer('newscientist26102012.map-u83cazo4');
 
-var events = L.mapbox.markerLayer ('newscientist26102012.map-zxrdyqpq');
+
+
+var all = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_all'),
+	Q12011 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q12011'),
+	Q22011 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q22011'),
+	Q32011 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q32011'),
+	Q42011 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q42011'),
+	Q12012 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q12012'),
+	Q22012 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q22012'),
+	Q32012 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q32012'),
+	Q42012 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q42012'),
+	Q12013 = L.mapbox.tileLayer('mapbox.world-black,paldhous.cities_and_countries,paldhous.Syria_Q12013');
+
+var events = L.mapbox.markerLayer ('paldhous.mago8fn8');
 	
 var map = L.map('map', {
     center: new L.LatLng(35, 36.5),

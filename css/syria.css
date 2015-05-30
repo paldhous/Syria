@@ -21,7 +21,11 @@ body  {
     color: #ffffff;
     height: 50px;
     width: 100%;
-} 
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(153,153,153,1);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(153,153,153,1);
+	box-shadow: 0px 2px 3px 0px rgba(153,153,153,1)
+}
+
 
 #header img {
     width: 200px;
